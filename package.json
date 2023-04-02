@@ -1,12 +1,17 @@
 {
-  "name": "gpt-command",
+  "name": "oaigpt",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "bin": {
+    "oaigpt": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install:oaigpt": "npm install -g .",
+    "uninstall:oaigpt": "npm uninstall -g oaigpt"
   },
   "author": "",
   "license": "MIT",

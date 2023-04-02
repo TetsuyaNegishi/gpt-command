@@ -1,1 +1,3 @@
-console.log('gtp test')
+#!/usr/bin/env node
+
+console.log('oagpt test')
