@@ -1,0 +1,17 @@
+{
+  "name": "gpt-command",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "typescript": "^5.0.3"
+  }
+}
